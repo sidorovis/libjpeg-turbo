@@ -12,3 +12,5 @@ depcomp
 install-sh
 ltmain.sh
 missing
+
+libjpeg-turbo
