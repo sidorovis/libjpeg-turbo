@@ -12,4 +12,8 @@
 #define VERSION "1.5.0"
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 4
+#ifdef __arm64__
+    #define SIZEOF_SIZE_T 8
+#else
+    #define SIZEOF_SIZE_T 4
+#endif // 
